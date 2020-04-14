@@ -1,0 +1,24 @@
+x = 2 + 3j
+print(type(x))
+
+print(x.real)
+print(x.imag)
+print(x.conjugate())
+
+#####
+
+a = complex(1,3)
+b = complex(2,4)
+print(a)
+print(b)
+
+c = a + b
+print(c)
+
+#####
+
+d = complex(15)
+print(d)
+
+e = complex(0,4)
+print(e)
